@@ -2029,7 +2029,7 @@ pump_2:
 	btfss   KP_REG, 0      
 	goto    SHIFT_A
 
-	; Ajouter REG_A à REG_RESULT
+	; Ajouter REG_A Ã  REG_RESULT
 	goto    ADD_REG_A_REG_RESULT
 
     SHIFT_A:
